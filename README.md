@@ -41,35 +41,15 @@ Explore similar movies and recommendations when you're ready for something new.
 **Playback availability**  
 The detail screen can reflect availability reported by the app's configured services.
 
-## BUILT FOR ANDROID
-
-- **Kotlin** — application language
-- **Jetpack Compose** — modern declarative interface
-- **Material 3** — UI components and theming
-- **Hilt** — dependency injection
-- **AndroidX Lifecycle** — lifecycle-aware UI state
-- **Coil 3** — image loading
-- **Gradle** — build system
-
 ## GET THE APP
 
 Visit the official Releases page to find the latest available Android build.
 
-**[→ Download ARYX PLAY from GitHub Releases](https://github.com/AryxK6/AryxPlay/releases)**
+**[→ Download ARYX PLAY](https://github.com/AryxK6/AryxPlay/releases)**
 
 If no release is listed yet, a public APK still needs to be published.
 
 To install a release, download the APK from the release page, open it on your Android device, and follow Android's prompts. Only install APKs from sources you trust.
-
-## BUILD FROM SOURCE
-
-1. Install Android Studio with a compatible Android SDK and JDK.
-2. Open the [ARYX PLAY repository](https://github.com/AryxK6/AryxPlay) and download or clone the project.
-3. Open the project folder in Android Studio and allow Gradle to sync.
-4. Configure any required service credentials locally, if applicable.
-5. Run the app on an emulator or connected Android device.
-
-Use **Build → Generate Signed Bundle / APK** in Android Studio to create a distributable APK. Keep signing keys and private credentials out of version control.
 
 ## WHAT'S NEXT
 
