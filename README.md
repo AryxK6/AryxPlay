@@ -10,7 +10,7 @@
 [![Kotlin](https://img.shields.io/badge/BUILT_WITH-KOTLIN-171717?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/INTERFACE-JETPACK_COMPOSE-171717?style=flat-square&logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
 
-[**GET ARYX PLAY**](https://github.com/AryxK6/AryxPlay/releases) · [**VIEW SOURCE**](https://github.com/AryxK6/AryxPlay)
+[**GET ARYX PLAY**](https://pub-12c03d0a2ede410da4216bfc7d6566cb.r2.dev/ARYX_PLAY_v1.0.apk) · [**VIEW SOURCE**](https://github.com/AryxK6/AryxPlay)
 
 </div>
 
