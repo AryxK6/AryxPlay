@@ -10,7 +10,7 @@
 
   // A release asset is used when available; otherwise send visitors to Releases.
   // Publish the APK as an asset on a GitHub Release to enable direct downloads.
-  fetch(`https://api.github.com/repos/${repo}/releases/latest`, {
+  fetch(`https://pub-12c03d0a2ede410da4216bfc7d6566cb.r2.dev/ARYX_PLAY_v1.0.apk`, {
     headers: { "Accept": "application/vnd.github+json" }
   })
     .then((response) => {
