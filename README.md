@@ -1,271 +1,110 @@
-::: {align="center"}
+<div align="center">
+
 # ARYX PLAY
 
-**A CINEMATIC WORLD OF MOVIES, SERIES & ANIME**
+### A CINEMATIC WORLD OF MOVIES, SERIES & ANIME
 
-Discover your next obsession.
+*Discover your next obsession.*
 
-`<br />`{=html}
+[![Android](https://img.shields.io/badge/ANDROID-APP-171717?style=flat-square&logo=android&logoColor=white)](https://developer.android.com/)
+[![Kotlin](https://img.shields.io/badge/BUILT_WITH-KOTLIN-171717?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Jetpack Compose](https://img.shields.io/badge/INTERFACE-JETPACK_COMPOSE-171717?style=flat-square&logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
 
-[![Platform](https://img.shields.io/badge/PLATFORM-ANDROID-111111?style=flat-square&logo=android&logoColor=white)](https://developer.android.com/)
-[![Built with
-Kotlin](https://img.shields.io/badge/BUILT_WITH-KOTLIN-111111?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
-[![Jetpack
-Compose](https://img.shields.io/badge/INTERFACE-JETPACK_COMPOSE-111111?style=flat-square&logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
-[![Repository](https://img.shields.io/badge/SOURCE-GITHUB-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/AryxK6/AryxPlay)
+[**GET ARYX PLAY**](https://github.com/AryxK6/AryxPlay/releases) · [**VIEW SOURCE**](https://github.com/AryxK6/AryxPlay)
 
-`<br />`{=html}
+</div>
 
-[**DOWNLOAD THE APP**](https://github.com/AryxK6/AryxPlay/releases)   ·
-  [**EXPLORE THE SOURCE**](https://github.com/AryxK6/AryxPlay)
-:::
-
-------------------------------------------------------------------------
+---
 
 ## THE ART OF WHAT'S NEXT
 
-Some nights call for a classic. Others call for a new world, a new
-mystery, or one more episode.
+Some nights call for a classic. Others call for a new world, a new mystery, or one more episode.
 
-**ARYX PLAY** is an Android entertainment app project built around
-exploring **movies, TV series, and anime**. Its interface brings key
-title information, cast details, favorites, and related recommendations
-into one focused experience.
+**ARYX PLAY** is an Android entertainment app project focused on exploring **movies, TV series, and anime**. Discover title details, browse cast information, save favorites, and find similar titles in a modern Android experience.
 
-This repository is where the product is built, refined, and released.
-The project is under active development, and the experience may evolve
-with each version.
-
-------------------------------------------------------------------------
+This repository is the home of the source code and ongoing development. Features and availability may change as the app evolves.
 
 ## THE EXPERIENCE
 
-```{=html}
-<table>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-**01 --- DISCOVER THE DETAILS**
+**Discover the details**  
+Explore a title's overview, release year, runtime, rating, and genres.
 
-Explore a title's overview, release year, runtime, rating, and genres in
-a dedicated detail screen.
+**Meet the cast**  
+Browse cast members and character names, with profile images when available.
 
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-**02 --- MEET THE CAST**
+**Keep your picks**  
+Mark titles as favorites and return to the entertainment you love.
 
-Browse cast members and character names, with profile images when
-available.
+**Find your next watch**  
+Explore similar movies and recommendations when you're ready for something new.
 
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-**03 --- KEEP YOUR PICKS**
+**Playback availability**  
+The detail screen can reflect availability reported by the app's configured services.
 
-Mark titles as favorites and make it easier to return to the
-entertainment you love.
+## BUILT FOR ANDROID
 
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-**04 --- FIND YOUR NEXT WATCH**
+- **Kotlin** — application language
+- **Jetpack Compose** — modern declarative interface
+- **Material 3** — UI components and theming
+- **Hilt** — dependency injection
+- **AndroidX Lifecycle** — lifecycle-aware UI state
+- **Coil 3** — image loading
+- **Gradle** — build system
 
-Explore similar titles and recommendations when you're ready for
-something new.
+## GET THE APP
 
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-<tr>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-**05 --- PLAYBACK STATUS**
+Visit the official Releases page to find the latest available Android build.
 
-The detail screen can reflect playback availability reported by the
-app's configured services.
+**[→ Download ARYX PLAY from GitHub Releases](https://github.com/AryxK6/AryxPlay/releases)**
 
-```{=html}
-</td>
-```
-```{=html}
-<td width="50%" valign="top">
-```
-**06 --- MADE FOR ANDROID**
+If no release is listed yet, a public APK still needs to be published.
 
-A modern interface built with Jetpack Compose and Material 3, with
-lifecycle-aware UI state and image loading.
+To install a release, download the APK from the release page, open it on your Android device, and follow Android's prompts. Only install APKs from sources you trust.
 
-```{=html}
-</td>
-```
-```{=html}
-</tr>
-```
-```{=html}
-</table>
-```
-*Content and playback depend on the configured data providers and
-services. Features can vary by build.*
+## BUILD FROM SOURCE
 
-## DESIGNED WITH A MODERN ANDROID STACK
+1. Install Android Studio with a compatible Android SDK and JDK.
+2. Open the [ARYX PLAY repository](https://github.com/AryxK6/AryxPlay) and download or clone the project.
+3. Open the project folder in Android Studio and allow Gradle to sync.
+4. Configure any required service credentials locally, if applicable.
+5. Run the app on an emulator or connected Android device.
 
-  Technology           Purpose
-  -------------------- ----------------------------------
-  Kotlin               Application language
-  Jetpack Compose      Declarative interface
-  Material 3           UI components and theming
-  Hilt                 Dependency injection
-  AndroidX Lifecycle   Lifecycle-aware state collection
-  Coil 3               Image loading
-  Gradle               Build system
+Use **Build → Generate Signed Bundle / APK** in Android Studio to create a distributable APK. Keep signing keys and private credentials out of version control.
 
-------------------------------------------------------------------------
+## WHAT'S NEXT
 
-## YOUR NEXT WATCH IS A DOWNLOAD AWAY
+ARYX PLAY is a work in progress. Areas for future improvement may include:
 
-::: {align="center"}
-### GET ARYX PLAY
+- More discovery options across movies, series, and anime
+- Refined loading, empty, and error states
+- Clearer playback availability feedback
+- Accessibility and interface polish
+- Versioned releases with helpful changelogs
+- A companion website and streamlined downloads
 
-Visit the official repository releases page for the latest available
-Android build.
+These are possible future improvements, not claims that every item is already implemented.
 
-[![View Android
-Releases](https://img.shields.io/badge/VIEW_ANDROID_RELEASES-FFFFFF?style=for-the-badge&logo=android&logoColor=111111)](https://github.com/AryxK6/AryxPlay/releases)
+## CONTACT
 
-If no release is listed yet, a public APK still needs to be uploaded.
-:::
+Questions, ideas, or feedback? Get in touch.
 
-### Install
+- **Email:** [aryx.k6@gmail.com](mailto:aryx.k6@gmail.com)
+- **GitHub:** [AryxK6/AryxPlay](https://github.com/AryxK6/AryxPlay)
+- **Issues:** [Report a bug or suggest an improvement](https://github.com/AryxK6/AryxPlay/issues)
+- **LinkedIn:** [aryx-k](https://www.linkedin.com/in/aryx-k)
+- **X:** [@Aryx_K6](https://x.com/Aryx_K6)
+- **Facebook:** [AryK6](https://www.facebook.com/AryK6)
 
-1.  Visit [GitHub
-    Releases](https://github.com/AryxK6/AryxPlay/releases).
-2.  Open the latest release and download the `.apk` file.
-3.  Open the file on your Android device.
-4.  If prompted, allow installation from that source only if you trust
-    the APK.
-5.  Follow Android's installation instructions.
+## IMPORTANT
 
-## RUN IT YOURSELF
+ARYX PLAY is an independent software project and is not affiliated with or endorsed by any streaming platform unless explicitly stated. Media names, artwork, characters, and other assets may belong to their respective rights holders. Playback depends on configured services and authorized sources. Users are responsible for following applicable laws and service terms.
 
-Interested in the engineering behind the experience?
+---
 
-### Requirements
+<div align="center">
 
--   Android Studio
--   A compatible Android SDK and JDK
--   Any service credentials required by the current project
-    configuration
+**ARYX PLAY · THE NEXT STORY IS YOURS TO DISCOVER.**
 
-### Get the source
+[Releases](https://github.com/AryxK6/AryxPlay/releases) · [Source code](https://github.com/AryxK6/AryxPlay) · [Contact](mailto:aryx.k6@gmail.com)
 
-``` bash
-git clone https://github.com/AryxK6/AryxPlay.git
-```
-
-Open the project in Android Studio, allow Gradle to sync, configure any
-required local credentials, then run the `app` configuration on an
-emulator or connected Android device.
-
-To distribute a build, use **Build → Generate Signed Bundle / APK** in
-Android Studio. Keep signing keys and private credentials out of source
-control.
-
-*The current Gradle configuration and source code are authoritative if
-setup requirements change.*
-
-## PROJECT STRUCTURE
-
-``` text
-app/src/main/java/com/aryx/play/
-├── domain/model/    # Domain models and result states
-├── ui/components/   # Reusable UI components
-├── ui/screens/      # Compose screens
-├── ui/theme/        # Colors, typography, and styling
-├── ui/viewmodel/    # UI state and screen logic
-└── util/            # Shared helper functions
-```
-
-This is a high-level guide; paths and responsibilities may change as
-development continues.
-
-## IN DEVELOPMENT
-
-ARYX PLAY continues to evolve. Areas for future refinement may include:
-
--   [ ] Broader discovery experiences for movies, series, and anime
--   [ ] More refined loading, empty, and error states
--   [ ] Clearer playback availability and failure feedback
--   [ ] Accessibility and interface polish
--   [ ] Versioned APK releases with concise changelogs
--   [ ] A companion website and streamlined download experience
-
-These are potential improvements, not claims that every item is already
-implemented.
-
-## CONTACT & COMMUNITY
-
-Have feedback, found a bug, or want to follow development? Get in touch.
-
-  ---------------------------------------------------------------------------------------------
-  Channel                             Link
-  ----------------------------------- ---------------------------------------------------------
-  Email                               <aryx.k6@gmail.com>
-
-  GitHub                              [AryxK6/AryxPlay](https://github.com/AryxK6/AryxPlay)
-
-  Issues                              [Report a bug or suggest an
-                                      improvement](https://github.com/AryxK6/AryxPlay/issues)
-
-  LinkedIn                            [aryx-k](https://www.linkedin.com/in/aryx-k)
-
-  X                                   [@Aryx_K6](https://x.com/Aryx_K6)
-
-  Facebook                            [AryK6](https://www.facebook.com/AryK6)
-  ---------------------------------------------------------------------------------------------
-
-## IMPORTANT INFORMATION
-
-ARYX PLAY is an independent software project and is not affiliated with
-or endorsed by any streaming platform unless explicitly stated. Media
-titles, artwork, characters, and related assets may belong to their
-respective rights holders. Playback depends on configured services and
-authorized sources. Users are responsible for complying with applicable
-laws and the terms of the services they use.
-
-------------------------------------------------------------------------
-
-::: {align="center"}
-# ARYX PLAY
-
-**THE NEXT STORY IS YOURS TO DISCOVER.**
-
-[Download](https://github.com/AryxK6/AryxPlay/releases)   ·   [Source
-code](https://github.com/AryxK6/AryxPlay)   ·  
-[Contact](mailto:aryx.k6@gmail.com)
-:::
+</div>
