@@ -43,13 +43,15 @@ The detail screen can reflect availability reported by the app's configured serv
 
 ## GET THE APP
 
-Visit the official Releases page to find the latest available Android build.
+Download the latest available version of ARYX PLAY for Android.
 
-**[→ Download ARYX PLAY](https://github.com/AryxK6/AryxPlay/releases)**
+**[⬇ Download ARYX PLAY v1.0 (APK)](https://pub-12c03d0a2ede410da4216bfc7d6566cb.r2.dev/ARYX_PLAY_v1.0.apk)**
 
-If no release is listed yet, a public APK still needs to be published.
+- **Version:** 1.0
+- **Platform:** Android
+- **Download:** Direct Link
 
-To install a release, download the APK from the release page, open it on your Android device, and follow Android's prompts. Only install APKs from sources you trust.
+Only install APKs from sources you trust.
 
 ## WHAT'S NEXT
 
